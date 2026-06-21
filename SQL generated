@@ -1,0 +1,10 @@
+CREATE TABLE Products
+(
+    Id INT IDENTITY PRIMARY KEY,
+
+    Name NVARCHAR(200) NOT NULL,
+
+    Description NVARCHAR(500),
+
+    Price DECIMAL(18,2)
+);
